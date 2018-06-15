@@ -19,6 +19,7 @@ class UEGMobileTwigExtensionExtension extends Extension
      */
     public function load(array $configs, ContainerBuilder $container)
     {
+        throw new Exception('AQUI 3!');
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
