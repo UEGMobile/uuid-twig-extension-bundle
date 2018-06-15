@@ -1,0 +1,26 @@
+{
+  "name": "uegmobile/uuid-twig-extension-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony 2 twig extension bundle",
+  "keywords": [],
+  "homepage": "https://github.com/UEGMobile/UEGMobileUUIDTwigExtensionBundle",
+  "license": "MIT",
+  "authors" : [{
+    "name" : "Pablo Nuñez",
+    "email" : "pablo.nunez@uegmobile.com"
+    }],
+  "require": {
+    "php": "^5.4 || ^7.0",
+    "ramsey/uuid": "^3.7"
+  },
+  "autoload": {
+    "psr-4": { "UEGMobile\\UUIDTwigExtensionBundle\\": "" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "minimum-stability": "dev",
+  "extra": {
+
+  }
+}
