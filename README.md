@@ -1,4 +1,4 @@
-# twig-bundle
+# uuid-twig-extension-bundle
 
 Symfony twig extension bundle to use uuid function (based on ramsey/uuid bundle)
 
@@ -19,7 +19,7 @@ Then, register the bundle in your AppKernel by adding the following line:
 
 * link function to ramsey/uuid
 
-## Examples
+#### Examples
 
 Print new UUID in a twig template:
 

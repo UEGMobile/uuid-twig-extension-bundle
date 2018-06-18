@@ -3,7 +3,7 @@
   "type": "symfony-bundle",
   "description": "Symfony twig extension bundle to use uuid function (based on ramsey/uuid bundle)",
   "version": "v1.0.0",
-  "keywords": [],
+  "keywords": ["symonfy", "bundle", "uuid", "twig"],
   "homepage": "https://github.com/UEGMobile/UEGMobileUUIDTwigExtensionBundle",
   "license": "MIT",
   "authors" : [{
