@@ -1,5 +1,5 @@
 {
-  "name": "uegmobile/uuid-twig-extension-bundle",
+  "name": "UEGMobile/uuid-twig-extension-bundle",
   "type": "symfony-bundle",
   "description": "Symfony 2 twig extension bundle",
   "version": "v1.0.0",
