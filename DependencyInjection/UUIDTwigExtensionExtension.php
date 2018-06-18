@@ -12,14 +12,13 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class UEGMobileTwigExtensionExtension extends Extension
+class UUIDTwigExtensionExtension extends Extension
 {
     /**
      * {@inheritdoc}
      */
     public function load(array $configs, ContainerBuilder $container)
     {
-        throw new Exception('AQUI 3!');
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 

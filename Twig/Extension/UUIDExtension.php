@@ -11,9 +11,8 @@ class UUIDExtension extends \Twig_Extension
 
     public function getFunctions()
     {
-        throw new Exception('AQUI!');
         return array(
-            new Twig_Function('uuid', array('this', 'uuid4')),
+            new \Twig_Function('uuid', array( $this, 'uuid4')),
         );
     }
 
@@ -24,7 +23,6 @@ class UUIDExtension extends \Twig_Extension
 
     public function getName()
     {
-        throw new Exception('AQUI 2!');
         return 'uegmobile_uuid_twig_extension';
     }
 
