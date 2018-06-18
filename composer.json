@@ -14,11 +14,11 @@
     "symfony/symfony": "^2.3|~3.0|~4.0",
     "ramsey/uuid": "^3.7"
   },
-  "autoload": {
-    "psr-4": { "UEGMobile\\UUIDTwigExtensionBundle\\": "" },
-    "exclude-from-classmap": [
-      "/Tests/"
-    ]
+  "target-dir" : "UEGMobile/UUIDTwigExtensionBundle",
+  "autoload" : {
+    "psr-0" : {
+      "UEGMobile\\UUIDTwigExtensionBundle" : ""
+    }
   },
   "minimum-stability": "dev",
   "extra": {

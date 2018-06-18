@@ -3,6 +3,6 @@ services:
 
     uegmobile_twig_extension.uuid_function:
       class: UEGMobile\UUIDTwigExtensionBundle\Twig\Extension\UUIDExtension
-      public: falsess
+      public: false
       tags:
         - { name: twig.extension }
