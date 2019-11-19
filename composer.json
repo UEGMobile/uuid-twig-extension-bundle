@@ -2,23 +2,30 @@
   "name": "UEGMobile/uuid-twig-extension-bundle",
   "type": "symfony-bundle",
   "description": "Symfony twig extension bundle to use uuid function (based on ramsey/uuid bundle)",
-  "version": "v1.0.0",
-  "keywords": ["symfony", "bundle", "uuid", "twig"],
+  "version": "v1.0.1",
+  "keywords": [
+    "symfony",
+    "bundle",
+    "uuid",
+    "twig"
+  ],
   "homepage": "https://github.com/UEGMobile/UEGMobileUUIDTwigExtensionBundle",
   "license": "MIT",
-  "authors" : [{
-    "name" : "Pablo Nuñez",
-    "email" : "pablo.nunez@uegmobile.com"
-    }],
+  "authors": [
+    {
+      "name": "Pablo Nuñez",
+      "email": "pablo.nunez@uegmobile.com"
+    }
+  ],
   "require": {
-    "php": "^5.4 || ^7.0",
-    "symfony/symfony": "^2.3|~3.0|~4.0",
+    "php": "^5.4||^7.0||^7.1||^7.2||^7.3||^7.4",
+    "symfony/symfony": "^2.3||~3.0||~4.0||~4.1||~4.2||~4.3||~4.4",
     "ramsey/uuid": "^3.7"
   },
-  "target-dir" : "UEGMobile/UUIDTwigExtensionBundle",
-  "autoload" : {
-    "psr-0" : {
-      "UEGMobile\\UUIDTwigExtensionBundle" : ""
+  "target-dir": "UEGMobile/UUIDTwigExtensionBundle",
+  "autoload": {
+    "psr-0": {
+      "UEGMobile\\UUIDTwigExtensionBundle": ""
     }
   }
 }
