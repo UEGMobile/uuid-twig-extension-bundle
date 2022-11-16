@@ -8,9 +8,13 @@ Through composer in your symfony project:
 
     composer require uegmobile/uuid-twig-extension-bundle
 
-Then, register the bundle in your AppKernel by adding the following line:
+In Symfony <= 3, Then, register the bundle in your AppKernel by adding the following line:
 
     new UEGMobile\UUIDTwigExtensionBundle\UUIDTwigExtensionBundle()
+
+In Symfony >= 4, Then, register the bundle in your bundle.php file by adding the following line:
+
+    UEGMobile\UUIDTwigExtensionBundle\UUIDTwigExtensionBundle::class => ['all' => true]
 
     
 ## twig extensions    
